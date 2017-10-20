@@ -1,0 +1,10 @@
+{
+    "children": [
+        "lenet",
+        "alexnet",
+        "googlenet",
+        "vgg-16",
+        "detectnet-kitti"
+    ],
+    "msg": "NVIDIA Public Model Store"
+}
