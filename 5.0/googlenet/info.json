@@ -1,0 +1,15 @@
+{
+    "dataset": "ImageNet2012",
+    "framework": "caffe",
+    "height": 224,
+    "image_type": "png",
+    "license": "license.txt",
+    "name": "GoogLeNet",
+    "network file": "network.prototxt",
+    "note": "Top1: 72.1%, Top5: 91%",
+    "resize_mode": "squash",
+    "snapshot file": "weights.caffemodel",
+    "solver file": "solver.prototxt",
+    "username": "NVIDIA",
+    "width": 224
+}

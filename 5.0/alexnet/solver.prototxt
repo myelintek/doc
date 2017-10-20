@@ -1,0 +1,21 @@
+net: "models/alexnet_bn/train_val.prototxt"
+test_iter: 1000
+test_interval: 1000
+base_lr: 0.01
+#lr_policy: "fixed"
+#lr_policy: "step"
+#stepsize: 100000
+lr_policy: "multistep"
+stepvalue:100000
+stepvalue:160000
+stepvalue:2000000
+max_iter: 220000
+#max_iter: 450000
+display: 100
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 20000
+snapshot_prefix: "models/alexnet_bn/snapshots/fp32/alexnet_bn_lr0.01_cudnn_gp100"
+solver_mode: GPU
+debug_info: false

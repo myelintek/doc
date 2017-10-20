@@ -1,0 +1,21 @@
+{
+    "caffe flavor": "BVLC",
+    "caffe version": "1.0.0-rc3",
+    "creation time": "2016-09-27 09:51:37.821532",
+    "digits version": "4.1-dev",
+    "framework": "caffe",
+    "image dimensions": [
+        28,
+        28,
+        1
+    ],
+    "image resize mode": "squash",
+    "labels file": "labels.txt",
+    "license": "license.txt",
+    "mean file": "mean.binaryproto",
+    "model file": "network.prototxt",
+    "name": "LeNet",
+    "snapshot file": "weights.caffemodel",
+    "solver file": "solver.prototxt",
+    "username": "NVIDIA"
+}

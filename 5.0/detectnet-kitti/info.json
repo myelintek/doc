@@ -1,0 +1,18 @@
+{
+    "caffe flavor": "NVIDIA",
+    "caffe version": "0.15.14",
+    "creation time": "2016-11-04 11:38:25.678647",
+    "digits version": "4.1-dev",
+    "framework": "caffe",
+    "image dimensions": [
+        384,
+        1248,
+        3
+    ],
+    "license": "license.txt",
+    "model file": "network.prototxt",
+    "name": "DetectNet (KITTI)",
+    "snapshot file": "weights.caffemodel",
+    "solver file": "solver.prototxt",
+    "username": "NVIDIA"
+}
