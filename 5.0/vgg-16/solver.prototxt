@@ -1,0 +1,31 @@
+net: "train_val.prototxt"
+
+test_iter: 1000 # 50k/50
+test_interval: 20000 # 2 per epoch -> (1281167/32)/2
+
+# base_lr: 0.0001
+# lr_policy: "step"
+# gamma: 0.1
+# stepsize: 5000
+
+base_lr: 0.001
+lr_policy: "poly"
+power: 2
+
+display: 50
+max_iter: 1201094 #=30 epochs -> (1281167/32)*30
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000 # 4 per epoch -> (1281167/32)/4
+snapshot_prefix: "snapshots/vgg"
+solver_mode: GPU
+
+# Misc :
+## Epoch size (il12) = 1,281,167
+## Iter per epoch (batch=32) = 40036.46875
+
+## Time per iteration ~ 540 [msec]
+## Time per epoch ~ 6[h]
+
+## Size of snapshot ~ 600[MB]
+

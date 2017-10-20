@@ -1,0 +1,15 @@
+{
+    "dataset": "ImageNet 2012",
+    "framework": "caffe",
+    "height": 227,
+    "image_type": "png",
+    "license": "license.txt",
+    "name": "VGG-16",
+    "network file": "network.prototxt",
+    "note": "Top1: 75.0%, Top5: 93.4%",
+    "resize_mode": "squash",
+    "snapshot file": "weights.caffemodel",
+    "solver file": "solver.prototxt",
+    "username": "NVIDIA",
+    "width": 227
+}
